@@ -3,7 +3,7 @@ package talk
 import (
 	"fmt"
 
-	"rsc.io/quote/"
+	"rsc.io/quote"
 )
 
 func Say(something string) string {
