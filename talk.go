@@ -2,6 +2,8 @@ package talk
 
 import (
 	"fmt"
+
+	"rsc.io/quote"
 )
 
 func Say(something string) string {
@@ -11,5 +13,5 @@ func Say(something string) string {
 }
 
 func Quote() string {
-	return "test" //quote.Hello()
+	return quote.Hello()
 }
